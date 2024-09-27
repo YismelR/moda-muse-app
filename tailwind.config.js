@@ -3,12 +3,18 @@ export default {
   content: ["./src/**/*.{html,js,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        "greyText": "#757575",
+        logoText: "#B99469",
+        greeHighlight: "#143133",
         hover: "#F5F5F5",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

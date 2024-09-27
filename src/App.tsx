@@ -1,14 +1,15 @@
-import { useState } from "react";
 import NavBar from "./components/navigation-bar/NavBar";
-import FooterSection from "./components/FooterSection";
+import FooterSection from "./components/footer/FooterSection";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <section>
+    <section className="h-full">
       <NavBar />
-      {/* <FooterSection /> */}
+      <div id="detail">
+        <Outlet/>
+      </div>
+      <FooterSection />
     </section>
   );
 }
