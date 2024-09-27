@@ -44,7 +44,7 @@ export default function FeatureCards() {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
       {cardCategories.map((category, idx) => (
-        <Card key={idx}>
+        <Card key={idx} className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer hover:shadow-2xl">
           <CardHeader>
             <CardTitle className="text-xl">{category.title}</CardTitle>
           </CardHeader>

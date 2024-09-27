@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <section className="h-full">
+    <section>
       <NavBar />
       <div id="detail">
         <Outlet/>
