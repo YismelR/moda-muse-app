@@ -6,7 +6,7 @@ import shoes from '@/assets/shoes.svg';
 import accessories from '@/assets/accessories.svg';
 import handbags from '@/assets/handbags.svg';
 
-const cardCategories = [
+export const cardCategories = [
   {
     title: 'Women',
     src: women,
