@@ -20,12 +20,12 @@ export default function ProductButton() {
           <SheetTitle>What section are you Looking for?</SheetTitle>
           <SheetDescription className="flex flex-col gap-8 text-base font-semibold">
             {cardCategories.map((category, idx) => (
-              <p className="relative group cursor-pointer" key={idx}>
+              <span className="relative group cursor-pointer" key={idx}>
                 <span className="relative z-10 inline-block">
                   {category.title}
                 </span>
                 <span className="absolute top-0 left-0 w-full h-full bg-hover transform scale-x-0 origin-left transition-transform duration-300 ease-in group-hover:scale-x-100"></span>
-              </p>
+              </span>
             ))}
           </SheetDescription>
         </SheetHeader>
