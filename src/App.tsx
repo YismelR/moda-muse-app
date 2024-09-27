@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <section>
+    <section className="flex flex-col h-full">
       <NavBar />
       <div id="detail">
         <Outlet />
