@@ -14,11 +14,10 @@ export default function CartButton() {
         Cart
       </SheetTrigger>
       <SheetContent>
-        <SheetHeader>
-          <SheetTitle>Are you absolutely sure?</SheetTitle>
-          <SheetDescription>
-            This action cannot be undone. This will permanently delete your
-            account and remove your data from our servers.
+        <SheetHeader className="gap-4">
+          <SheetTitle>Cart Summary</SheetTitle>
+          <SheetDescription className="flex flex-col gap-8 text-base font-semibold">
+            Cart is Empty
           </SheetDescription>
         </SheetHeader>
       </SheetContent>
