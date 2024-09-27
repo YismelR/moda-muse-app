@@ -5,13 +5,13 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
-import burgerBars from "@/assets/burger-bars.svg";
+} from '@/components/ui/sheet';
+import burgerBars from '@/assets/burger-bars.svg';
 
 export default function ProductButton() {
   return (
     <Sheet>
-      <SheetTrigger className="text-black font-medium text-base flex place-items-center gap-1">
+      <SheetTrigger className="text-black font-medium text-base flex place-items-center gap-1 hover:bg-hover rounded-md px-2">
         <img src={burgerBars} alt="bars" className="size-6" />
         Product
       </SheetTrigger>
