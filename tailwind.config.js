@@ -13,7 +13,7 @@ export default {
       },
       colors: {
         greyText: '#757575',
-        logoText: '#B99469',
+        logoText: '#F2BA65',
         greeHighlight: '#143133',
         hover: '#F5F5F5',
         background: 'hsl(var(--background))',
