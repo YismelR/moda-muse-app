@@ -4,12 +4,11 @@ import Search from './Search';
 
 export default function ItemsList() {
   return (
-    <main className="flex justify-center">
+    <main className="grid grid-cols-12 mx-9">
       <Filter />
-      <div className="grow">
+      <div className="col-span-9">
         <Search />
-        <div className="grid grid-cols-3">
-          <Items />
+        <div className="grid lg:grid-cols-3 gap-6 md:grid-cols-2 my-8">
           <Items />
         </div>
       </div>
