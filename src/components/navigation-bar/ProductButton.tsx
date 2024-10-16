@@ -8,6 +8,8 @@ import {
 } from '@/components/ui/sheet';
 import burgerBars from '@/assets/burger-bars.svg';
 import { cardCategories } from '../homepage/FeatureCards';
+import { Link } from 'react-router-dom';
+
 export default function ProductButton() {
   return (
     <Sheet>
@@ -27,6 +29,10 @@ export default function ProductButton() {
                 <span className="absolute top-0 left-0 w-full h-full bg-hover rounded-r-xl transform scale-x-0 origin-left transition-transform duration-300 ease-in group-hover:scale-x-100"></span>
               </span>
             ))}
+            <Link to="/items-list" className="relative group cursor-pointer">
+              <span className="relative z-10 inline-block p-2">View All</span>
+              <span className="absolute top-0 left-0 w-full h-full bg-hover rounded-r-xl transform scale-x-0 origin-left transition-transform duration-300 ease-in group-hover:scale-x-100"></span>
+            </Link>
           </SheetDescription>
         </SheetHeader>
       </SheetContent>
