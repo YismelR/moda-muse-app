@@ -6,7 +6,7 @@ function App() {
   return (
     <section className="flex flex-col h-full">
       <NavBar />
-      <div id="detail">
+      <div id="detail" className="grid">
         <Outlet />
       </div>
       <FooterSection />
