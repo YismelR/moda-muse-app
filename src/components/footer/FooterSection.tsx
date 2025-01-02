@@ -6,7 +6,7 @@ import Explore from './Explore';
 
 export default function FooterSection() {
   return (
-    <footer className=" grid grid-cols-4 shadow-2xl px-8 h-96 py-8 border-t-2 mt-auto">
+    <footer className=" grid grid-cols-4 shadow-2xl px-8 h-96 py-8 border-t-2 mt-12">
       <div>
         <Logo />
         <SocialMedia />
