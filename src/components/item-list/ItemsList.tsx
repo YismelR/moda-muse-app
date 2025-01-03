@@ -12,7 +12,7 @@ export default function ItemsList() {
           <Search />
           <FilterPriceSelect />
         </div>
-        <div className="grid lg:grid-cols-3 gap-6 md:grid-cols-2 ">
+        <div className="grid lg:grid-cols-3 gap-6 md:grid-cols-2">
           <Items />
         </div>
       </div>
